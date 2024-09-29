@@ -1,0 +1,33 @@
+{
+    
+    "seq1":"qa_ar,summ_hi,cls_en,nli_es,qa_hi,nli_en,summ_ar,cls_hi,cls_ar,qa_en,nli_ar,summ_es,summ_en,cls_es,nli_hi,qa_es",
+    "seq2":"nli_hi,cls_ar,summ_en,qa_hi,cls_es,qa_ar,summ_ar,nli_es,summ_hi,qa_en,cls_en,nli_ar,qa_es,cls_hi,nli_en,summ_es",
+    "seq3":"nli_en,qa_es,cls_ar,summ_ar,nli_hi,qa_en,cls_en,summ_hi,qa_ar,cls_es,summ_en,nli_ar,nli_es,cls_hi,summ_es,qa_hi",
+    "seq4":"qa_hi,cls_en,summ_hi,qa_ar,nli_es,summ_ar,nli_hi,cls_es",
+    "seq5":"nli_es,qa_hi,cls_en,summ_hi,cls_es,summ_ar,qa_ar,nli_hi",
+    "seq6":"summ_ar,cls_es,qa_hi,qa_ar,nli_hi,summ_hi,nli_es,cls_en",
+    "seq7":"summ_hi,qa_ar,nli_es,cls_en",
+    "seq8":"cls_en,nli_es,qa_ar,summ_hi",
+    "seq9":"qa_ar,cls_en,summ_hi,nli_es",
+    
+    "zero_shot_seq":"cls_hi,cls_ar,nli_en,nli_ar,qa_en,qa_es,summ_en,summ_es",
+    
+    "cls_en":"cls_en",
+    "cls_es":"cls_es",
+    "cls_ar":"cls_ar",
+    "cls_hi":"cls_hi",
+    "nli_en":"nli_en",
+    "nli_es":"nli_es",
+    "nli_ar":"nli_ar",
+    "nli_hi":"nli_hi",
+    "qa_en":"qa_en",
+    "qa_es":"qa_es",
+    "qa_ar":"qa_ar",
+    "qa_hi":"qa_hi",
+    "summ_en":"summ_en",
+    "summ_es":"summ_es",
+    "summ_ar":"summ_ar",
+    "summ_hi":"summ_hi",
+
+    "test_seq":"cls_en,cls_en"
+}
