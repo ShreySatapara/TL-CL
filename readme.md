@@ -1,5 +1,7 @@
 # TL-CL: Task And Language Incremental Continual Learning
 
+This paper introduces and investigates the problem of Task and Language Incremental Continual Learning (TLCL), wherein a multilingual model is systematically updated to accommodate new tasks in previously learned languages or new languages for established tasks. This significant yet previously unexplored area holds substantial practical relevance as it mirrors the dynamic requirements of real-world applications. We benchmark a representative set of continual learning (CL) algorithms for TLCL. Furthermore, we propose Task and Language-Specific Adapters (TLSA), an adapter-based parameter-efficient fine-tuning strategy. TLSA facilitates cross-lingual and cross-task transfer and outperforms other parameter-efficient fine-tuning techniques. Crucially, TLSA reduces parameter growth stemming from saving adapters to linear complexity from polynomial complexity as it was with parameter isolation-based adapter tuning. We conducted experiments on several NLP tasks arising across several languages. We observed that TLSA outperforms all other parameter-efficient approaches without requiring access to historical data for replay.
+
 ## Table of Contents
 1. [Installation](#installation)
 2. [Project Structure](#project-structure)
@@ -30,7 +32,7 @@ This process can take about 15-20 minutes.
 conda activate TLCL
 ```
 
-5. Download the required data and place it in the home folder. Each training script contains a path for the root data directory.
+5. Download the required [data](https://aclanthology.org/attachments/2024.emnlp-main.676.data.zip) and place it in the home folder. Each training script contains a path for the root data directory.
 
 ## Project Structure
 
@@ -107,3 +109,21 @@ For TLSA-specific configurations, refer to the `TLSA/main.py` file.
 You can modify hyperparameters in the training scripts or in `main.py` and `multitask_training.py` for multitask training.
 
 For more detailed information about specific components, please refer to the individual Python files in the project.
+
+```
+@inproceedings{satapara-srijith-2024-tl,
+    title = "{TL}-{CL}: Task And Language Incremental Continual Learning",
+    author = "Satapara, Shrey  and
+      Srijith, P. K.",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.676",
+    pages = "12123--12142",
+}
+```
